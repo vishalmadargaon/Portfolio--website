@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Your Name - Portfolio</title>
+
+        <!-- CSS inside same file -->
+          <style>
+              * { margin: 0; padding: 0; box-sizing: border-box; }
+                  body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f4f9; color: #333; }
+                      header { background: #222; color: white; padding: 20px 0; text-align: center; }
+                          .profile-pic { width: 120px; height: 120px; border-radius: 50%; margin-bottom: 10px; }
+                              section { padding: 40px 20px; max-width: 800px; margin: auto; }
+                                  h2 { margin-bottom: 15px; color: #444; }
+                                      .skills-list { display: flex; gap: 10px; flex-wrap: wrap; list-style: none; }
+                                          .skills-list li { background: #007BFF; color: white; padding: 8px 12px; border-radius: 5px; }
+                                              form { display: flex; flex-direction: column; gap: 10px; }
+                                                  form input, form textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+                                                      form button { background: #007BFF; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; }
+                                                          form button:hover { background: #0056b3; }
+                                                              footer { text-align: center; padding: 20px; background: #222; color: white; }
+                                                                </style>
+                                                                </head>
+                                                                <body>
+                                                                  <!-- Header -->
+                                                                    <header>
+                                                                        <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-pic">
+                                                                            <h1>Your Name</h1>
+                                                                                <p class="tagline">Aspiring Web Developer | Tech Enthusiast</p>
+                                                                                  </header>
+
+                                                                                    <!-- About -->
+                                                                                      <section id="about">
+                                                                                          <h2>About Me</h2>
+                                                                                              <p>Hello! I'm Your Name, a final-year BE student passionate about web development and building impactful projects.</p>
+                                                                                                </section>
+
+                                                                                                  <!-- Education -->
+                                                                                                    <section id="education">
+                                                                                                        <h2>Education</h2>
+                                                                                                            <ul>
+                                                                                                                  <li><strong>BE in Computer Science</strong> - Your College Name (Year - Year)</li>
+                                                                                                                        <li><strong>12th</strong> - Your School (Year)</li>
+                                                                                                                              <li><strong>10th</strong> - Your School (Year)</li>
+                                                                                                                                  </ul>
+                                                                                                                                    </section>
+
+                                                                                                                                      <!-- Skills -->
+                                                                                                                                        <section id="skills">
+                                                                                                                                            <h2>Skills</h2>
+                                                                                                                                                <ul class="skills-list">
+                                                                                                                                                      <li>HTML</li>
+                                                                                                                                                            <li>CSS</li>
+                                                                                                                                                                  <li>JavaScript</li>
+                                                                                                                                                                        <li>Python</li>
+                                                                                                                                                                              <li>SQL</li>
+                                                                                                                                                                                  </ul>
+                                                                                                                                                                                    </section>
+
+                                                                                                                                                                                      <!-- Projects -->
+                                                                                                                                                                                        <section id="projects">
+                                                                                                                                                                                            <h2>Projects</h2>
+                                                                                                                                                                                                <ul>
+                                                                                                                                                                                                      <li><strong>Portfolio Website</strong> - This website showcasing my skills and projects.</li>
+                                                                                                                                                                                                            <li><strong>AI in Agriculture</strong> - Smart AI system to help farmers with crop recommendation and market rates.</li>
+                                                                                                                                                                                                                  <li><strong>To-Do App</strong> - Simple web app to manage tasks efficiently.</li>
+                                                                                                                                                                                                                      </ul>
+                                                                                                                                                                                                                        </section>
+
+                                                                                                                                                                                                                          <!-- Contact -->
+                                                                                                                                                                                                                            <section id="contact">
+                                                                                                                                                                                                                                <h2>Contact Me</h2>
+                                                                                                                                                                                                                                    <form>
+                                                                                                                                                                                                                                          <input type="text" placeholder="Your Name" required>
+                                                                                                                                                                                                                                                <input type="email" placeholder="Your Email" required>
+                                                                                                                                                                                                                                                      <textarea placeholder="Your Message" required></textarea>
+                                                                                                                                                                                                                                                            <button type="submit">Send</button>
+                                                                                                                                                                                                                                                                </form>
+                                                                                                                                                                                                                                                                    <p>You can also reach me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                                                                                                                                                                                                                                                                      </section>
+
+                                                                                                                                                                                                                                                                        <!-- Footer -->
+                                                                                                                                                                                                                                                                          <footer>
+                                                                                                                                                                                                                                                                              <p>© 2025 Your Name. All Rights Reserved.</p>
+                                                                                                                                                                                                                                                                                </footer>
+
+                                                                                                                                                                                                                                                                                  <!-- JavaScript inside same file -->
+                                                                                                                                                                                                                                                                                    <script>
+                                                                                                                                                                                                                                                                                        document.querySelector("form").addEventListener("submit", function(e) {
+                                                                                                                                                                                                                                                                                              e.preventDefault();
+                                                                                                                                                                                                                                                                                                    alert("Thank you! This form is just a demo.");
+                                                                                                                                                                                                                                                                                                        });
+                                                                                                                                                                                                                                                                                                          </script>
+                                                                                                                                                                                                                                                                                                          </body>
+                                                                                                                                                                                                                                                                                                          </html>
